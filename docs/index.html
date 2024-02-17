@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viajes Espaciales</title>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+
+<body>
+  <div id="cookie-overlay">
+  <div id="cookie-box">
+    <p>Este sitio utiliza cookies para mejorar tu experiencia. Al continuar, aceptas el uso de cookies.</p>
+    <button id="cookie-accept" onclick="aceptarCookies()">Aceptar</button>
+    <a href="#" onclick="mostrarInformacionCookies()">Más información sobre las cookies</a>
+  </div>
+</div>
+<header>
+      <span id="Name">𝙴𝚗𝚐𝚒𝚗𝚎𝚎𝚛𝚜 𝚃𝚛𝚊𝚟𝚎𝚕𝚒𝚗𝚐 𝚃𝚘 𝚃𝚑𝚎 𝙼𝚘𝚘𝚗 ™</span>
+    </div>
+   <div id="menu-search">
+  <button id="menu-btn" onclick="mostrarMenu()">☰</button>
+</div>
+</header>
+
+<div id="overlay" onclick="ocultarMenu()">
+  <div id="menu-content" onclick="event.stopPropagation();">
+    <div class="menu-capsule">
+      <p class="menu-option" onclick="redirigir('texto1')">BUSCAR VUELOS</p>
+    </div>
+
+    <div class="menu-capsule">
+      <p class="menu-option" onclick="redirigir('texto2')">PLANIFICAR VIAJE</p>
+    </div>
+
+    <div class="menu-capsule">
+      <p class="menu-option" onclick="redirigir('texto3')">VOLANDO CON NOSOTROS</p>
+    </div>
+
+    <div class="menu-capsule">
+      <p class="menu-option" onclick="redirigir('texto4')">CONTACTO</p>
+    </div>
+
+    <div class="menu-capsule">
+      <p class="menu-option" onclick="redirigir('texto5')">PROMOCIONES</p>
+    </div>
+
+    <button onclick="ocultarMenu()">Cerrar</button>
+  </div>
+</div>
+
+
+  <div class="image-slider">
+    <img id="imagen" alt="Imagen">
+    <script src="scripts/slider.js"></script>
+  </div>
+
+  <section id="texto">
+  <p id="texto1"><h2>Bienvenidos a Engineers Traveling to The Moon™</h2>
+  <p>Donde cada vuelo es una historia de aventura. Fundada en 2005 por el visionario ingeniero, Yevgueni Prigozhin, nuestra empresa comenzó como un sueño de conectar a personas de todo el mundo con el espacio. A lo largo de los años, hemos crecido con dedicación y ahora ofrecemos viajes espaciales a más de 21 destinos, llevando a nuestros pasajeros a nuevas alturas con seguridad y comodidad.</p></p>
+    
+   <button id="toggleOptionsBtn" onclick="toggleOptions()">Destinos Populares</button>
+
+<ul id="options">
+    <li>
+        <p>1 La luna </p>
+        <img src="fotos/luna2.jpeg" alt="Option 1" style="width: 200px; height: 200;">
+        <button class="more-info" onclick="showMoreInfo('info1')">Mas información</button>
+        <p id="info1" class="more-info"></p>
+    </li>
+    <li>
+        <p>2 Marte</p>
+        <img src="fotos/marte.jpeg" alt="Option 2" style="width: 200px; height: 200;">
+        <button class="more-info" onclick="showMoreInfo('info2')">Mas información</button>
+        <p id="info2" class="more-info"></p>
+    </li>
+    <li>
+        <p>3 Venus</p>
+        <img src="fotos/venus.jpeg" alt="Option 3" style="width: 200px; height: 200;">
+        <button class="more-info" onclick="showMoreInfo('info3')">Mas información</button>
+        <p id="info3" class="more-info"></p>
+    </li>
+    <li>
+        <p>4 Kepler-78b</p>
+        <img src="fotos/kepler.jpeg" alt="Option 4" style="width: 200px; height: 200;">
+        <button class="more-info" onclick="showMoreInfo('info4')">Mas información</button>
+        <p id="info4" class="more-info"></p>
+    </li>
+    <!-- Añade más opciones si es necesario -->
+</ul>
+    
+  <h2 id="texto2">Por qué elegír Engineers Traveling to The Moon™</h2>
+  <p>Elije nuestra empresa para experimentar la innovación espacial de última generación, con un compromiso prioritario con la seguridad en rigurosos estándares y meticulosa revisión. Disfruta de servicios de lujo a bordo, desde delicias gastronómicas hasta entretenimiento de primer nivel. Destacamos en sostenibilidad ambiental y espacial, colaborando activamente en programas de exploración y preservación.</p>
+  <p>Respaldamos nuestro compromiso con la calidad y la satisfacción del viajero. Cada viaje con Engineers Traveling to The Moon™ es una experiencia inolvidable, desde el despegue hasta el aterrizaje. Elige la excelencia en la exploración espacial con nosotros.</p>
+  <h2 id="texto3">Compromiso con la Seguridad en Engineers Traveling to The Moon™</h2>
+  <p>En Engineers Traveling to The Moon™, la seguridad de nuestros pasajeros es nuestra principal prioridad. Utilizamos tecnologías de vanguardia y mantenemos rigurosos estándares de entrenamiento para nuestro personal de vuelo espacial. Desde la meticulosa revisión de nuestras naves hasta la implementación de los protocolos más recientes, nos esforzamos por garantizar que cada viaje con nosotros sea seguro y sin preocupaciones.</p>
+  <h2 id="texto4">Viajes y servicios</h2>
+
+  <p id="texto5">Párrafo 5</p>
+  <p id="texto6">párrafo 6</p>
+  <p id="texto7">párrafo 7</p>
+  <p id="texto8">párrafo 8</p>
+  <p id="texto9">párrafo 9</p>
+  <p id="texto10">párrafo 10.</p>
+  <p id="texto11">párrafo 11.</p>
+  <p id="texto12">párrafo 12.</p>
+  <p id="texto13">párrafo 13.</p>
+  <p id="texto14">párrafo 14.</p>
+  <p id="texto15">párrafo 15.</p>
+  <p id="texto16">párrafo 16.</p>
+  <p id="texto17">párrafo 17.</p>
+  <p id="texto18">párrafo 18.</p>
+  <p id="texto19">párrafo 19.</p>
+  <p id="texto20">párrafo 20.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 𝙴𝚗𝚐𝚒𝚗𝚎𝚎𝚛𝚜 𝚃𝚛𝚊𝚟𝚎𝚕𝚒𝚗𝚐 𝚃𝚘 𝚃𝚑𝚎 𝙼𝚘𝚘𝚗 ™. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="scripts/functions.js"></script>
+</body>
+
+</html>
