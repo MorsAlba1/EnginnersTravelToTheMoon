@@ -1,8 +1,8 @@
 var imagenes = [
   "fotos/Logo1.jpg",
-  "fotos/Logo2.jpeg",
-  "fotos/Luna1.jpeg",
-  "fotos/Hotel1.jpeg"
+  "fotos/Logo2.jpg",
+  "fotos/Luna1.jpg",
+  "fotos/Hotel1.jpg"
 ];
 var indice = 0;
 var imagen = document.getElementById("imagen");
