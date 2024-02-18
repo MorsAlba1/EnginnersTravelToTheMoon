@@ -4,11 +4,11 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #f4f4f4;
-  color: #333; /* Ajusta el color del texto principal */
+  color: #333;
 }
 
 header {
-  background-color: #1565c0; /* Cambia este valor al azul rey preferido */
+  background-color: #1565c0;
   color: #fff;
   padding: 15px;
   text-align: center;
@@ -16,18 +16,17 @@ header {
 
 #Name {
   color: #fff;
-  font-size: 24px; /* Aumenta el tamaño del nombre */
+  font-size: 24px;
 }
 
 #menu-btn {
-  background-color: #1565c0; /* Coincide con el color del encabezado */
+  background-color: #1565c0;
   color: #fff;
   padding: 10px 15px;
   border: none;
   cursor: pointer;
   font-size: 18px;
   border-radius: 5px;
-  margin-left: 0;
 }
 
 #overlay {
@@ -37,7 +36,7 @@ header {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.7); /* Hace el fondo ligeramente más transparente */
+  background-color: rgba(0, 0, 0, 0.7);
   justify-content: center;
   align-items: center;
   z-index: 1;
@@ -51,9 +50,9 @@ header {
   max-height: 80vh;
   overflow-y: auto;
   padding: 20px;
-  border-radius: 15px; /* Aumenta la curvatura de los bordes */
+  border-radius: 15px;
   text-align: left;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Hace la sombra más evidente */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   opacity: 0;
   transform: scale(0.8);
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -65,10 +64,10 @@ header {
 }
 
 .menu-capsule {
-  margin-bottom: 15px; /* Incrementa el espacio entre las cápsulas del menú */
-  border: 2px solid #1565c0; /* Coincide con el color del encabezado */
+  margin-bottom: 15px;
+  border: 2px solid #1565c0;
   border-radius: 15px;
-  padding: 10px; /* Ajusta este valor según tu preferencia */
+  padding: 10px;
 }
 
 .menu-option {
@@ -76,29 +75,28 @@ header {
   margin-bottom: 15px;
   transition: color 0.3s;
   color: #333;
-  font-size: 16px; /* Ajusta el tamaño del texto de la opción */
+  font-size: 16px;
 }
 
 .menu-option:hover {
   color: #555;
 }
 
-
 .desplegable {
   display: none;
-  transform: translateY(-20px); /* Agrega una translación hacia arriba */
+  transform: translateY(-20px);
   opacity: 0;
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .desplegable.open {
   display: block;
-  transform: translateY(0); /* Transición hacia la posición original */
+  transform: translateY(0);
   opacity: 1;
 }
 
 section {
-  margin: 30px 0; /* Incrementa el espacio alrededor de las secciones */
+  margin: 30px 0;
 }
 
 .image-slider img {
@@ -108,12 +106,13 @@ section {
   vertical-align: top;
   transition: transform 1s ease-in-out;
 }
+
 #prev,
 #next {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 24px; /* Ajusta el tamaño de los botones de navegación */
+  font-size: 24px;
   cursor: pointer;
 }
 
@@ -126,37 +125,37 @@ section {
 }
 
 #texto {
-  background-color: #37474f; /* Cambia este valor a un tono de gris-azulado según tus preferencias */
-  color: #eceff1; /* Ajusta el color del texto para mejorar la legibilidad */
-  padding: 20px; /* Mantén el padding para mejorar la apariencia visual */
-  border-radius: 10px; /* Agrega bordes redondeados para un aspecto más moderno */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Agrega una sombra para resaltar el texto */
+  background-color: #37474f;
+  color: #eceff1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 #texto h2 {
-  color: #ffab40; /* Ajusta el color del título según tus preferencias */
-  font-size: 28px; /* Aumenta el tamaño del título para mayor impacto */
-  margin-bottom: 15px; /* Incrementa el espacio entre el título y el contenido */
+  color: #ffab40;
+  font-size: 28px;
+  margin-bottom: 15px;
 }
 
 #texto p {
-  font-size: 16px; /* Ajusta el tamaño del párrafo según tus preferencias */
-  line-height: 1.5; /* Mejora la legibilidad ajustando el espaciado entre líneas */
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .image-slider {
-  margin-bottom: 0; /* Elimina el margen inferior */
+  margin-bottom: 0;
 }
 
 #texto {
   margin: 0;
-  padding: 20px; 
-  border-radius: 0px; 
+  padding: 20px;
+  border-radius: 0;
 }
 
 footer {
-  background-color: #1565c0; /* Utiliza el mismo color que el encabezado */
-  color: #fff; /* Ajusta el color del texto según sea necesario */
+  background-color: #1565c0;
+  color: #fff;
   padding: 15px;
   text-align: center;
 }
@@ -190,46 +189,43 @@ footer {
   cursor: pointer;
 }
 
-  #options {
-    display: none;
-    list-style-type: none;
-    padding: 0;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
+#options {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-around;
+  margin-top: 20px;
+}
 
-  #options li {
-    margin-bottom: 20px;
-  }
+#options li {
+  margin-bottom: 20px;
+}
 
-  #options button {
-    background-color: #1565c0;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  }
+#options button {
+  background-color: #1565c0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
 
-  #options button:hover {
-    background-color: #fff;
-    color: #1565c0;
-  }
+#options button:hover {
+  background-color: #fff;
+  color: #1565c0;
+}
 
-  #toggleOptionsBtn {
-    background-color: #4CAF50; /* Color de fondo verde */
-    color: white; /* Color del texto blanco */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  }
+#toggleOptionsBtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
 
-  #toggleOptionsBtn:hover {
-    background-color: #45a049; /* Cambio de color de fondo al pasar el mouse */
-  }
-
-/*pruebas*/
-
+#toggleOptionsBtn:hover {
+  background-color: #45a049;
+}
