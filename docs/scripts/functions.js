@@ -116,5 +116,6 @@ function toggleOptions() {
       // Agrega la lógica necesaria para mostrar la información
   }
 
-//pruebas
+//pruebas//
+
 
