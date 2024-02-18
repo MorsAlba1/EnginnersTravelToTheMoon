@@ -15,11 +15,11 @@ function cambiarImagen() {
 function redirigir() {
   // Redirige a diferentes partes del texto según la imagen actual
   if (indice === 0) {
-    window.location.href = "#texto1";
+    window.location.href = "#texto";
   } else if (indice === 1) {
-    window.location.href = "#texto1";
+    window.location.href = "#texto";
   } else if (indice === 2) {
-    window.location.href = "#texto1";
+    window.location.href = "#texto";
   }
 }
 
