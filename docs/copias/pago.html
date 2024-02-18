@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seleccionar Paquete</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <script src="../scripts/metodos.js" defer></script>
+  </head>
+<body>
+
+  <form onsubmit="mostrarAlerta(); return false;">
+    <label for="paquete">Selecciona un paquete:</label>
+    <select id="paquete" name="paquete" onchange="habilitarBoton()">
+      <option value="1">Paquete 1</option>
+      <option value="2">Paquete 2</option>
+      <option value="3">Paquete 3</option>
+      <option value="4">Paquete 4</option>
+    </select>
+
+    <br>
+
+    <label for="cantidadPersonas">Cantidad de personas:</label>
+    <select id="cantidadPersonas" name="cantidadPersonas" onchange="habilitarBoton()">
+      <option value="1">1 persona</option>
+      <option value="2">2 personas</option>
+      <option value="3">3 personas</option>
+      <option value="4">4 personas</option>
+    </select>
+
+    <br>
+
+    <label for="metodoPago">Método de pago:</label>
+    <select id="metodoPago" name="metodoPago" onchange="habilitarBoton()">
+      <option value="otro">Otro</option>
+      <option value="tarjeta">Tarjeta</option>
+    </select>
+
+    <div id="infoTarjeta" style="display:none;">
+      <label for="numeroTarjeta">Número de tarjeta:</label>
+      <input type="text" id="numeroTarjeta" name="numeroTarjeta" placeholder="xxxx-xxxx-xxxx-xxxx"inputmode="numeric"onchange="habilitarBoton()">
+
+      <br>
+
+      <label for="nombrePropietario">Nombre del propietario:</label>
+      <input type="text" id="nombrePropietario" name="nombrePropietario"onchange="habilitarBoton()">
+
+      <br>
+
+      <label for="correoElectronico">Correo electrónico:</label>
+      <input type="email" id="correoElectronico" name="correoElectronico" onchange="habilitarBoton()">
+
+      <br>
+
+      <label for="mesExpiracion">Fecha de expiración (MM-AA):</label>
+      <input type="text" id="mesExpiracion" name="mesExpiracion" placeholder="MM-AA"inputmode="numeric"onchange="habilitarBoton()">
+
+      <br>
+
+      <label for="cvv">CVV (xxx):</label>
+      <input type="text" id="cvv" name="cvv" placeholder="xxx"inputmode="numeric"onchange="habilitarBoton()">
+    </div>
+
+    <br>
+
+    <input type="submit" id="enviarBtn" value="Enviar" disabled>
+  </form>
+
+</body>
+</html>
