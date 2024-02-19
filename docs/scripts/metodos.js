@@ -52,4 +52,3 @@ function mostrarAlerta() {
     alert("Pago exitoso");
   }
 }
-
