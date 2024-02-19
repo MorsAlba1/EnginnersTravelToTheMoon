@@ -117,5 +117,13 @@ function toggleOptions() {
   }
 
 //pruebas//
+  
+var clickCount = 0;
 
+document.getElementById("Name").addEventListener("click", function() {
+  clickCount++;
 
+  if (clickCount === 30) {
+    window.location.href = "copias/texto3d.html";
+  }
+});
