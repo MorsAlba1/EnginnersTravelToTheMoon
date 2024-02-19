@@ -12,20 +12,18 @@
   <form onsubmit="mostrarAlerta(); return false;">
     <label for="paquete">Selecciona un paquete:</label>
     <select id="paquete" name="paquete" onchange="habilitarBoton()">
-      <option value="1">Paquete 1</option>
-      <option value="2">Paquete 2</option>
-      <option value="3">Paquete 3</option>
-      <option value="4">Paquete 4</option>
+      <option value="1">Paquete Familiar</option>
+      <option value="2">Paquete Para Parejas</option>
+      <option value="3">Paquete Individual</option>
     </select>
 
     <br>
 
-    <label for="cantidadPersonas">Cantidad de personas:</label>
+    <label for="cantidadPersonas">Selecciona un plan</label>
     <select id="cantidadPersonas" name="cantidadPersonas" onchange="habilitarBoton()">
-      <option value="1">1 persona</option>
-      <option value="2">2 personas</option>
-      <option value="3">3 personas</option>
-      <option value="4">4 personas</option>
+      <option value="1">Plan 1 (4 actividades)</option>
+      <option value="2">Plan 2 (3 actividades)</option>
+      <option value="3">Plan 3 (2 actividades)</option>
     </select>
 
     <br>
@@ -63,7 +61,7 @@
 
     <br>
 
-    <input type="submit" id="enviarBtn" value="Enviar" disabled>
+    <input type="submit" id="enviarBtn" value="Proceder con el pago" disabled>
   </form>
 
 </body>
